@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:scaleType="center"
+        android:text="Edit Post"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_15sp"
+        android:textColor="@color/off_white"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:contentDescription="@string/app_name" />
+
+    <EditText
+        android:id="@+id/content"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:textSize="@dimen/dimen_16sp"
+        android:hint="Enter PUBG username" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginBottom="@dimen/dimen_15dp">
+
+        <Button
+            android:id="@+id/xCancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:textSize="@dimen/dimen_14sp"
+            android:background="@drawable/rounded_white_background"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:paddingBottom="@dimen/dimen_5dp"
+            android:padding="@dimen/dimen_5dp"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/xConfirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Confirm"
+            android:textSize="@dimen/dimen_14sp"
+            android:background="@drawable/rounded_green_background"
+            android:layout_marginRight="@dimen/dimen_10dp"
+
+            android:textColor="@color/off_white"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

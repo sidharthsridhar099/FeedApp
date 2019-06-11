@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "612813239075",
+    "firebase_url": "https://feedapp-2f29c.firebaseio.com",
+    "project_id": "feedapp-2f29c",
+    "storage_bucket": "feedapp-2f29c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612813239075:android:9ba99df5145153b1",
+        "android_client_info": {
+          "package_name": "com.feedapp.feedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612813239075-4bpqklleba9dhunjo0teijlfhavsohs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXQGmANf6XXjafz3xLw6JwrHb1AD11hMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612813239075-4bpqklleba9dhunjo0teijlfhavsohs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
